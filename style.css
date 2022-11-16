@@ -594,3 +594,97 @@ form {
     height: 100%;
     overflow: hidden;
 }
+
+@media (max-width: 810px) {
+    .header-title {
+        position: static;
+    }
+
+    .header-suptitle::before,
+    .header-suptitle::after {
+        content: none;
+    }
+
+    .block-holder {
+        display: block;
+    }
+
+    .left-title, .left-text, .right-btn {
+        text-align: center;
+    }
+
+    .right-btn {
+        margin-top: 30px;
+    }
+
+    .history-images {
+        display: none;
+    }
+
+    .img-dishes-1 {
+        right: 349px;
+    }
+
+    .img-dishes-2 {
+        right: 178px;
+    }
+
+    .img-dishes-3 {
+        right: 178px;
+    }
+
+    .img-dishes-4 {
+        right: 178px;
+    }
+
+    .dishes-text1 {
+        left: 641px;
+        font-size: 20px;
+        margin-top: 42px;
+    }
+
+    .dishes-text2 {
+        left: 641px;
+        font-size: 20px;
+        margin-top: 194px;
+    }
+
+    .dishes-text3 {
+        left: 641px;
+        font-size: 20px;
+        margin-top: 334px;
+    }
+
+    .card {
+        margin-top: -170px;
+        padding-left: 20px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .header-logo {
+        margin-left: -122px;
+    }
+
+    .phone-holder {
+        margin-left: 10px;
+        display: block;
+        position: absolute;
+    }
+
+    .number {
+        margin-left: 2px;
+        margin-top: -27px;
+    }
+
+    .phone-text {
+        display: none;
+    }
+
+    .phone-img {
+        margin-top: -14px;
+        margin-left: -31px;
+    }
+}
